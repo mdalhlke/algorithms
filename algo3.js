@@ -14,7 +14,7 @@ var isValid = function(s) {
       let openBracket = bracketMatch[c];
       if (openBracket) {
         let lastOpenBracket = openBracketArr.shift();
-        if (lastOpenBracket !== openBracket){
+        if (lastOpenBracket !== openBracket) {
           return false;
         }
       } else {
